@@ -1,1 +1,1 @@
-body,html{font-family:'Roboto', sans-serif}#message{min-width:300px}
+body,html{font-family:'Roboto', sans-serif}#message{max-height:300px;min-width:300px;overflow-y:scroll}

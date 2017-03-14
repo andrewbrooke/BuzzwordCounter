@@ -7,7 +7,7 @@ function DOMtoString(document_root) {
     while (node) {
         switch (node.nodeType) {
         case Node.ELEMENT_NODE:
-            html += node.outerHTML;
+            html += node.innerText;
             break;
         case Node.TEXT_NODE:
             html += node.nodeValue;

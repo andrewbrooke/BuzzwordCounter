@@ -3,5 +3,7 @@ body, html {
 }
 
 #message {
+    max-height: 300px;
     min-width: 300px;
+    overflow-y: scroll;
 }
